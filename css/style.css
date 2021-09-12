@@ -299,13 +299,15 @@ a:active {
 .site-service-item {
    background: #333;
    padding: 30px;
+   padding-top: 40px;
+   border-radius: 10px;
+   border: 1px solid var(--color-primary);
 }
 
 .site-service-item .icon {
    display: block;
    margin-bottom: 50px;
    background: #edf0f2;
-   background: #bac964;
    width: 100px;
    height: 100px;
    position: relative;
@@ -315,7 +317,7 @@ a:active {
 
 .site-service-item .icon span {
    font-size: 40px;
-   color: #080b0e;
+   color:  var(--color-primary);
    position: absolute;
    -webkit-transform: translate(-50%, -50%);
    -ms-transform: translate(-50%, -50%);
@@ -327,6 +329,8 @@ a:active {
 .site-service-item h3 {
    font-size: 20px;
    font-weight: 200;
+   font-family: 'Big Shoulders Stencil Text', cursive;
+   letter-spacing: .05rem;
 }
 
 .site-link {
