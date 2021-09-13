@@ -44,6 +44,7 @@ a:active {
    text-decoration: none;
 }
 
+/* ============ Navbar Start ================== */
 .site-navbar {
    border: none;
    margin-bottom: 0px;
@@ -165,8 +166,10 @@ a:active {
    color: var(--color-primary) !important;
 }
 
+/* =========== Navbar End ============== */
 
-/* Particles Start*/
+
+/* =========== Particles Start ============*/
 .site-hero #particles-js {
    position: absolute;
    width: 100%;
@@ -177,9 +180,10 @@ a:active {
    background-position: 50% 50%;
 }
 
-/* Particles End */
+/* =============== Particles End ==================*/
 
- /* Home Start */
+
+ /* ================= Home Start ================== */
 .site-hero {
    background-image: linear-gradient(to right,#fff,#bdc3c7 );
    background-size: cover;
@@ -244,12 +248,12 @@ a:active {
    line-height: 2;
 }
 
+/* ================= End Home ================== */
 
 .site-section {
    padding: 5em 0;
 }
 
-/* ==================================================== */
 
 .section-heading {
    margin-bottom: 30px;
@@ -629,7 +633,7 @@ a:active {
    margin-bottom: 0;
 }
 
-
+/* ================ Start Contact ================ */
 .form-control {
    border: none !important;
    background: #333;
@@ -686,6 +690,9 @@ a:active {
    margin-bottom: 5px;
    display: block;
 }
+/* ================ End Contact ================ */
+
+/* ================ Start Footer ================= */
 
 .site-footer {
    padding: 3em 0;
@@ -729,3 +736,4 @@ a:active {
    font-family: 'Big Shoulders Stencil Text', cursive;
    letter-spacing: 1px;
 }
+/* ============ End Footer =============== */
