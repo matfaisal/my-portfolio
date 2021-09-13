@@ -44,34 +44,6 @@ a:active {
    text-decoration: none;
 }
 
-/* ============ Preloader ================ */
-/* .pace {
-	-webkit-pointer-events: none;
-	pointer-events: none;
-
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	user-select: none;
-
-	z-index: 2;
-	position: fixed;
-	margin: auto;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	height: 1px;
-	width: 400px;
-	background: #fff;
-	border: 1px solid #d50000;
-
-	overflow: hidden;
-} */
-
-
-/* ============ End Preloader ============ */
-
-
 /* ============ Navbar Start ================== */
 .site-navbar {
    border: none;
