@@ -286,12 +286,12 @@ a:active {
    font-weight: 200;
    line-height: 1.5;
    letter-spacing: .2px;
-   font-family: 'Open Sans Condensed', sans-serif;
+   font-family: 'Inter', sans-serif;
    
 }
 
 .sub-lead {
-   font-family: 'Open Sans Condensed', sans-serif;
+   font-family: 'Inter', sans-serif;
    font-weight: 100;
 }
 
