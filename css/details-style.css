@@ -36,6 +36,7 @@ body {
 .site-portfolio .relative {
    cursor: pointer;
    transition: .6s;
+   margin-top: 20px;
 }
 
 .site-portfolio h1 {
@@ -58,6 +59,12 @@ body {
 
 }
 
+.site-portfolio .relative {
+   margin-bottom: 10px;
+   transition: .6s;
+   cursor: pointer;
+}
+
 .site-portfolio .relative:hover {
    transform: scale(1.02);
 }
@@ -68,6 +75,11 @@ body {
    height: 100%;
    box-shadow: 0 0 20px #707070;
 }
+
+.img-fluid {
+   max-width: 100%;
+   height: auto;
+ }
 
 .description-details {
    margin-top: 4em;
@@ -89,6 +101,58 @@ body {
 }
 
 .detail-project {
-   padding-top: 2em;
-   padding-bottom: 2em;
+   padding-top: 3em;
+   padding-bottom: 3em;
 }
+
+.detail-project h4{
+   font-family: 'Big Shoulders Stencil Text', cursive;
+   color: var(--color-black);   
+}
+
+/* ================ Start Footer ================= */
+
+.site-footer {
+   padding: 3em 0;
+}
+
+.site-footer p:last-child {
+   margin-bottom: 0;
+}
+
+.site-footer h2 {
+   font-family: 'Big Shoulders Stencil Text', cursive;
+   /* letter-spacing: .1rem; */
+   color: var(--color-black);
+}
+
+.site-footer .social-item {
+   display: inline-block;
+   width: 60px;
+   height: 60px;
+   background: #333;
+   position: relative;
+   border-radius: 50%;
+   font-size: 24px;
+   margin: 0 10px;
+}
+
+.site-footer .social-item>span {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   color: white;
+}
+
+.site-footer .social-item>span:hover {
+   color: var(--color-primary);
+}
+
+.site-footer .copyright {
+   font-family: 'Big Shoulders Stencil Text', cursive;
+   letter-spacing: 1px;
+}
+/* ============ End Footer =============== */
