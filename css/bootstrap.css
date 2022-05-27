@@ -4297,6 +4297,7 @@ textarea.form-control-lg {
 
 .card-text:last-child {
   margin-bottom: 0;
+  line-height: 1.6;
 }
 
 .card-link:hover {
@@ -7293,6 +7294,7 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+  line-height: 1.6 !important;
 }
 
 .text-decoration-none {

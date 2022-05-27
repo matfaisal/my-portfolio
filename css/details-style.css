@@ -13,6 +13,10 @@ body {
    box-sizing: border-box;
 }
 
+p {
+   letter-spacing: 3 !important;
+}
+
 
 .site-navbar {
    width: 100%;
@@ -40,14 +44,15 @@ body {
 }
 
 .site-portfolio h1 {
-   font-family: 'Big Shoulders Stencil Text', cursive;
+   font-family: 'Big Shoulders Display', 'Big Shoulders Stencil Text', cursive;
    letter-spacing: .6px;
+   color: #004B7D ;
 }
 
 .site-portfolio p {
-   font-family: 'Inter', sans-serif;
+   font-family: 'Roboto', 'Inter', sans-serif;
    font-weight: 400;
-   color: var(--color-primary);
+   /* color: var(--color-primary); */
    margin-bottom: 2em;
    line-height: 18px;
 }
@@ -91,10 +96,12 @@ body {
    padding-bottom: 1px;
 }
 
-.description-details p {
-   color: #707070;
-   font-size: 18px;
-   font-family: 'Inter', sans-serif;
+
+.description-details p .text-center {
+   color: #707070 !important;
+   font-size: 24px !important;
+   text-align: center;
+   font-family: 'Roboto' 'Inter', sans-serif;
    line-height: 1px;
    display: inline;
    
@@ -105,10 +112,33 @@ body {
    padding-bottom: 3em;
 }
 
+.detail-project p {
+   line-height: 1.6;
+}
+
+.container .thinking img {
+   width: 100%;
+}
+
 .detail-project h4{
    font-family: 'Big Shoulders Stencil Text', cursive;
    color: var(--color-black);   
 }
+
+.detail-project h2 {
+   color: var(--color-primary);
+   font-family:'Big Shoulders Display', 'Big Shoulders Stencil Text', cursive;
+   padding-bottom: 1px;
+   font-weight: bold;
+   margin-bottom: 18px;
+}
+
+.detail-project ul li {
+   line-height: 1.8;
+   font-size: 18px;
+}
+
+
 
 /* ================ Start Footer ================= */
 
