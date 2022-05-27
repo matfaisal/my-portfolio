@@ -121,7 +121,7 @@ p {
 }
 
 .detail-project h4{
-   font-family: 'Big Shoulders Stencil Text', cursive;
+   font-family: 'Big Shoulders Display', 'Big Shoulders Stencil Text', cursive;
    color: var(--color-black);   
 }
 
