@@ -114,6 +114,9 @@ p {
 
 .detail-project p {
    line-height: 1.6;
+   font-size: 18px;
+   margin-top: 15px;
+   color: #4D4D4D ;
 }
 
 .container .thinking img {
@@ -136,6 +139,9 @@ p {
 .detail-project ul li {
    line-height: 1.8;
    font-size: 18px;
+   font-family: 'Roboto' 'Inter', sans-serif !important;
+   color: #4D4D4D ;
+   
 }
 
 
